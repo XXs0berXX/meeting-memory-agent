@@ -1,0 +1,573 @@
+{
+  "Q01": {
+    "team": "TS3006",
+    "parts": [
+      "Which of the LCD screen or speech recognition did Team TS3006 drop when costs forced a cut?",
+      "Which of the LCD screen or speech recognition did Team TS3006 keep when costs forced a cut?",
+      "What reason did Team TS3006 give for keeping whichever of the LCD screen or speech recognition they kept when costs forced a cut?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 39.5,
+    "usage": {
+      "calls": 8,
+      "in": 57582,
+      "out": 2713,
+      "cost": 0.25742600000000004
+    }
+  },
+  "Q02": {
+    "team": "ES2003",
+    "parts": [
+      "Which material did Team ES2003 initially lean towards for the case?",
+      "Which material did Team ES2003 end up choosing for the case instead of the one they initially leaned towards?",
+      "Why did Team ES2003 switch from the material they initially leaned towards for the case to the one they ended with?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 40.8,
+    "usage": {
+      "calls": 8,
+      "in": 67188,
+      "out": 3909,
+      "cost": 0.30781
+    }
+  },
+  "Q03": {
+    "team": "TS3009",
+    "parts": [
+      "Who first proposed replacing the titanium back for the remote in Team TS3009's project?",
+      "What did Team TS3009's team member propose to use instead of the titanium back for the remote, as first proposed by whoever suggested replacing it?",
+      "Did Team TS3009 keep the titanium back for their remote in the end?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 41.7,
+    "usage": {
+      "calls": 8,
+      "in": 57991,
+      "out": 3694,
+      "cost": 0.268872
+    }
+  },
+  "Q04": {
+    "team": "TS3011",
+    "parts": [
+      "What combination of energy sources did Team TS3011 choose for their remote?",
+      "What happened to the combined energy source that Team TS3011 chose for their remote when the costs were added up?"
+    ],
+    "steps": 4,
+    "grounding": [
+      "snapped(0.97)",
+      "snapped(0.98)",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 32.9,
+    "usage": {
+      "calls": 6,
+      "in": 40920,
+      "out": 2404,
+      "cost": 0.187696
+    }
+  },
+  "Q05": {
+    "team": "TS3007",
+    "parts": [
+      "What energy source did Team TS3007 first settle on in their meetings?",
+      "What energy source did Team TS3007 end up with, after changing from the one they first settled on?",
+      "Who on Team TS3007 proposed the change of energy source from the one they first settled on to the one they ended with?"
+    ],
+    "steps": 7,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 47.9,
+    "usage": {
+      "calls": 9,
+      "in": 83118,
+      "out": 4203,
+      "cost": 0.37445800000000007
+    }
+  },
+  "Q06": {
+    "team": "ES2008",
+    "parts": [
+      "What happened to the feature intended to stop the remote from getting lost in Team ES2008's discussions (was it kept, modified, or dropped)?",
+      "Who in Team ES2008 raised the main objection to the feature intended to stop the remote from getting lost?",
+      "What was the main objection raised in Team ES2008 to the feature intended to stop the remote from getting lost?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 35.8,
+    "usage": {
+      "calls": 8,
+      "in": 61174,
+      "out": 3524,
+      "cost": 0.27990400000000004
+    }
+  },
+  "Q07": {
+    "team": "IS1008",
+    "parts": [
+      "In Team IS1008, which team member was asked to find out what adding a display would cost?",
+      "In Team IS1008, what cost figure did the team member who was asked to find out what adding a display would cost come back with?"
+    ],
+    "steps": 4,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 27.5,
+    "usage": {
+      "calls": 6,
+      "in": 37227,
+      "out": 2199,
+      "cost": 0.17087400000000003
+    }
+  },
+  "Q08": {
+    "team": "ES2007",
+    "parts": [
+      "Who brought up a health complaint about remote controls in Team ES2007's meetings?",
+      "What was the health complaint about remote controls that was raised in Team ES2007's meetings?",
+      "How did Team ES2007's remote control design respond to the health complaint about remote controls raised in their meetings?"
+    ],
+    "steps": 7,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 32.1,
+    "usage": {
+      "calls": 9,
+      "in": 76244,
+      "out": 3005,
+      "cost": 0.334986
+    }
+  },
+  "Q09": {
+    "team": "IS1002",
+    "parts": [
+      "What selling price was Team IS1002 working with at first?",
+      "What selling price range did Team IS1002 settle on later?",
+      "Which speaker on Team IS1002 pushed hardest for a higher, more exclusive selling price?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 26.1,
+    "usage": {
+      "calls": 8,
+      "in": 51579,
+      "out": 2801,
+      "cost": 0.234294
+    }
+  },
+  "Q10": {
+    "team": "TS3003",
+    "parts": [
+      "Which age group did Team TS3003 decide to design for?",
+      "Why did Team TS3003 choose that age group they decided to design for rather than another age group?"
+    ],
+    "steps": 4,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 29.5,
+    "usage": {
+      "calls": 6,
+      "in": 47486,
+      "out": 2535,
+      "cost": 0.21527000000000002
+    }
+  },
+  "Q11": {
+    "team": "ES2011",
+    "parts": [
+      "What was the question about one of the new project requirements that Team ES2011's project manager said they would check the meaning of?",
+      "When the question about that new project requirement came up again, what was the answer that Team ES2011 received or gave about what the requirement meant?"
+    ],
+    "steps": 5,
+    "grounding": [
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 29.6,
+    "usage": {
+      "calls": 7,
+      "in": 52840,
+      "out": 1669,
+      "cost": 0.228022
+    }
+  },
+  "Q12": {
+    "team": "ES2004",
+    "parts": [
+      "What happened to the voice recognition feature (for finding the lost remote) that Team ES2004 considered, in their final remote control design?",
+      "Why did Team ES2004 make that decision about voice recognition for finding the lost remote in the final design?",
+      "What did Team ES2004 say would still make the remote easy to find when lost, given what happened to the voice recognition feature in the final design?"
+    ],
+    "steps": 7,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 39.2,
+    "usage": {
+      "calls": 9,
+      "in": 71018,
+      "out": 4434,
+      "cost": 0.328372
+    }
+  },
+  "Q13": {
+    "team": "TS3004",
+    "parts": [
+      "Was speech recognition included in Team TS3004's final design?",
+      "In which of their four meetings did Team TS3004 last reverse their position on speech recognition?"
+    ],
+    "steps": 4,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [
+      "quote not found in TS3004b: 'Okay, no speech recognition.'",
+      "quote not found in TS3004b: 'Okay, no speech recognition.'"
+    ],
+    "protocol": "json",
+    "seconds": 21.5,
+    "usage": {
+      "calls": 6,
+      "in": 35510,
+      "out": 2088,
+      "cost": 0.16289599999999999
+    }
+  },
+  "Q14": {
+    "team": "IS1009",
+    "parts": [
+      "In Team IS1009's final costing, what total cost did they reach?",
+      "Was the feature that Team IS1009 left pending more research into its cost included in their final costing total?"
+    ],
+    "steps": 4,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 21.9,
+    "usage": {
+      "calls": 6,
+      "in": 41105,
+      "out": 1887,
+      "cost": 0.18326599999999998
+    }
+  },
+  "Q15": {
+    "team": "ES2016",
+    "parts": [
+      "What total cost did Team ES2016 get when they first fully costed their design, which came out over budget?",
+      "What was the budget limit that Team ES2016 had for their design, which their first full costing exceeded?",
+      "Which component did Team ES2016 remove from their design to bring the cost within budget after their first full costing came out over the limit?"
+    ],
+    "steps": 8,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [
+      "quote not found in ES2016d: 'by three Euros over.'"
+    ],
+    "protocol": "json",
+    "seconds": 40.7,
+    "usage": {
+      "calls": 10,
+      "in": 84844,
+      "out": 2366,
+      "cost": 0.362996
+    }
+  },
+  "Q16": {
+    "team": "TS3010",
+    "parts": [
+      "What kind of control for navigating did the project manager of Team TS3010 favour?",
+      "What replaced the navigation control that Team TS3010's project manager favoured in the team's final costed design?",
+      "What else, besides the navigation control that Team TS3010's project manager favoured, was given up in the team's final costed design to reach the budget?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 36.5,
+    "usage": {
+      "calls": 8,
+      "in": 88105,
+      "out": 2850,
+      "cost": 0.38088
+    }
+  },
+  "Q17": {
+    "team": "ES2009",
+    "parts": [
+      "In which meeting did team ES2009 drop the touch screen they had provisionally chosen?",
+      "Which feature did team ES2009 keep instead of the touch screen when they dropped it?",
+      "What cost per remote did team ES2009 estimate for the touch screen?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 31.3,
+    "usage": {
+      "calls": 8,
+      "in": 58697,
+      "out": 2205,
+      "cost": 0.25680600000000003
+    }
+  },
+  "Q18": {
+    "team": "ES2014",
+    "parts": [
+      "How did Team ES2014 originally plan to let people find a lost remote?",
+      "What did Team ES2014 change their original plan for finding a lost remote to?",
+      "Who suggested how Team ES2014 should present the changed version of their lost-remote-finding feature to buyers?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 328.6,
+    "usage": {
+      "calls": 8,
+      "in": 75568,
+      "out": 4427,
+      "cost": 0.2996982
+    }
+  },
+  "Q19": {
+    "team": "IS1003",
+    "parts": [
+      "What natural material did team IS1003 originally pick for the case?",
+      "What material replaced the natural material that team IS1003 originally picked for the case?",
+      "Who suggested that team IS1003 switch from the natural material they originally picked for the case to the replacement material?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [
+      "quote not found in IS1003d: 'Plastic is free.'"
+    ],
+    "protocol": "json",
+    "seconds": 27.8,
+    "usage": {
+      "calls": 8,
+      "in": 62046,
+      "out": 1989,
+      "cost": 0.268042
+    }
+  },
+  "Q20": {
+    "team": "ES2008",
+    "parts": [
+      "In the Team ES2008 meeting, who said they would look into whether the remote should only have buttons for the television, after a team member raised that question early on?",
+      "In the Team ES2008 meeting, what answer was reported back about whether the remote should only have buttons for the television, after a team member said they would look into it?"
+    ],
+    "steps": 5,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 31.3,
+    "usage": {
+      "calls": 7,
+      "in": 54581,
+      "out": 1720,
+      "cost": 0.235496
+    }
+  },
+  "Q21": {
+    "team": "IS1007",
+    "parts": [
+      "In Team IS1007, which team member said they would check the prices of components?",
+      "In Team IS1007, what total price did the member who offered to check component prices report for a version with all the functions?",
+      "In Team IS1007, what did the team decide about the LCD after the member who checked component prices reported the total for a version with all the functions?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 28.9,
+    "usage": {
+      "calls": 8,
+      "in": 72500,
+      "out": 2224,
+      "cost": 0.312204
+    }
+  },
+  "Q22": {
+    "team": "ES2010",
+    "parts": [
+      "Who on Team ES2010 suggested using a lithium battery?",
+      "What battery option did another member of Team ES2010 prefer instead of the lithium battery, and why did they prefer it?",
+      "What was the final battery choice that Team ES2010 made after discussing the battery options?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "snapped(0.93)",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 25.2,
+    "usage": {
+      "calls": 8,
+      "in": 55231,
+      "out": 2718,
+      "cost": 0.248072
+    }
+  },
+  "Q23": {
+    "team": "ES2006",
+    "parts": [
+      "Which of their headline technical features did Team ES2006 keep in their final design that fit the budget?",
+      "What did Team ES2006 swap out or simplify in their final design to get under budget?"
+    ],
+    "steps": 5,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 25.1,
+    "usage": {
+      "calls": 7,
+      "in": 52038,
+      "out": 1430,
+      "cost": 0.22242399999999996
+    }
+  },
+  "Q24": {
+    "team": "ES2002",
+    "parts": [
+      "What power source did Team ES2002 first agree on for their design?",
+      "What addition did the project manager of Team ES2002 like the idea of, in relation to the design that used the power source they first agreed on?",
+      "What power source did the final design of Team ES2002 use?"
+    ],
+    "steps": 6,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 28.6,
+    "usage": {
+      "calls": 8,
+      "in": 67874,
+      "out": 2695,
+      "cost": 0.29840999999999995
+    }
+  },
+  "Q25": {
+    "team": "ES2011",
+    "parts": [
+      "What did Team ES2011 decide in the end about using fruit and vegetable shapes for the look of their remote?",
+      "Why did Team ES2011 make that decision about fruit and vegetable shapes for their remote's look?"
+    ],
+    "steps": 4,
+    "grounding": [
+      "exact",
+      "exact",
+      "exact"
+    ],
+    "citation_errors": [],
+    "protocol": "json",
+    "seconds": 28.1,
+    "usage": {
+      "calls": 6,
+      "in": 49279,
+      "out": 3321,
+      "cost": 0.230298
+    }
+  }
+}

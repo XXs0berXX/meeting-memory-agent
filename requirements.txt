@@ -1,0 +1,4 @@
+numpy>=1.26
+fastembed>=0.4        # local ONNX embeddings (bge-small); optional, falls back to full-text-only retrieval
+psycopg[binary]>=3.2  # Postgres driver
+pgvector>=0.3         # pgvector adapter for psycopg

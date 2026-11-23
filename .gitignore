@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+store/traces/
+store/*.log
+store/memory.db
+store/memory.db-wal
+store/memory.db-shm
+
+# not part of the submission
+*.pdf
+store/answers_*_backup.json
+store/*_pre_rerun.dump
+.claude/

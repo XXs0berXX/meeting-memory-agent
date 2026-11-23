@@ -1,0 +1,124 @@
+{
+  "note": "Hand-written eval set. Every gold answer was checked by reading the transcript turns cited in gold_citations (see eval/grep_turns.py). Only teams that do NOT appear in the 25 official questions are used, so this set cannot leak into or tune against the held-out answers. key_facts: each inner list is a set of regex alternatives; a fact counts as covered if any alternative matches the agent's answer.",
+  "questions": [
+    {
+      "question_id": "E01", "team": "ES2013",
+      "question": "Team ES2013 weighed several energy sources for their remote. Which options were discussed, which one did they settle on in their third meeting, and was it still the choice in the final costing?",
+      "gold_answer": "Batteries (including the idea of a rechargeable internal battery), solar power and kinetic energy were discussed. In meeting c the consensus was kinetic energy, if at all possible, and in meeting d the final costing still used a single kinetic energy source.",
+      "key_facts": [["kinetic"], ["solar"], ["batter"]],
+      "gold_citations": [
+        {"meeting_id": "ES2013c", "quote": "So the consensus seems to be use the kinetic if it's at all possible."},
+        {"meeting_id": "ES2013d", "quote": "we would use plastic with a rubber casing, I think was the consensus, powered by kinetic energy"}
+      ]
+    },
+    {
+      "question_id": "E02", "team": "IS1006",
+      "question": "In Team IS1006, who first proposed making the remote out of titanium and why, what was said about rubber as an alternative, and which material did the final design keep?",
+      "gold_answer": "Speaker B proposed titanium in meeting b, for a baby-proof, unbreakable remote with a good style. In meeting c rubber was weighed (Speaker D liked its spongy feel; Speaker C said rubber is expensive and hard to shape), but in meeting d they stuck with titanium.",
+      "key_facts": [["\\bB\\b"], ["titanium"], ["unbreakable|baby|break"], ["rubber"]],
+      "gold_citations": [
+        {"meeting_id": "IS1006b", "quote": "I think that to make a baby-proof remote control it got to be a titanium"},
+        {"meeting_id": "IS1006c", "quote": "We'll use mainly for titanium rubber is expensive and also it's bit difficult to do all the shapes uh."},
+        {"meeting_id": "IS1006d", "quote": "Material, we want to stick to titanium. We will send, we want to"}
+      ]
+    },
+    {
+      "question_id": "E03", "team": "ES2015",
+      "question": "What energy source did Team ES2015 choose, what happened to the idea of a solar backup, and what did the energy source cost in their final costing?",
+      "gold_answer": "They chose kinetic energy (Speaker B, the Industrial Designer, favoured it in meeting c). A solar backup was suggested in meeting c but dropped in favour of going fully kinetic. In meeting d the kinetic source was costed at three Euros, described as quite a large expense.",
+      "key_facts": [["kinetic"], ["solar"], ["three|\\b3\\b"], ["drop|fully|no backup|without|abandon|instead|not"]],
+      "gold_citations": [
+        {"meeting_id": "ES2015c", "quote": "Energy, we've decided on kinetic, right? Okay, so that's good."},
+        {"meeting_id": "ES2015c", "quote": "It could be fully kinetic energy. Yeah."},
+        {"meeting_id": "ES2015d", "quote": "we're using kinetic which is quite a large expense at three Euros"}
+      ]
+    },
+    {
+      "question_id": "E04", "team": "IS1004",
+      "question": "Team IS1004 considered both an LCD screen and speech recognition. Which was ruled out first, in which meeting was the other ruled out, and what arguments were made against the LCD?",
+      "gold_answer": "Speech recognition was ruled out first, in meeting b, while the LCD was left open. The LCD was dropped in meeting c, because of cost against the 25 Euro price target and because Speaker D (Marketing Expert) argued it needed an internet connection and more requirements.",
+      "key_facts": [["speech"], ["meeting b|second|IS1004b|2nd"], ["meeting c|third|IS1004c|3rd"], ["cost|expens|price|budget"], ["internet"]],
+      "gold_citations": [
+        {"meeting_id": "IS1004b", "quote": "the committment is the following, we don't go for speech recognition technology."},
+        {"meeting_id": "IS1004c", "quote": "So i it looks like we're going completely to forget about the L_C_D_ thing."},
+        {"meeting_id": "IS1004c", "quote": "I'm not convinced about this L_C_D_ because you need uh internet connection"}
+      ]
+    },
+    {
+      "question_id": "E05", "team": "IS1004",
+      "question": "What power source did Team IS1004's industrial designer propose, and what happened to the solar cells in the final meeting and why?",
+      "gold_answer": "Speaker C (Industrial Designer) proposed rechargeable batteries with a base (docking) station plus solar cells. In meeting d Speaker B (User Interface Designer) argued solar cells were no longer necessary with a recharging base station, and the team decided against them.",
+      "key_facts": [["recharg"], ["base|basis|dock"], ["solar"], ["\\bB\\b|interface"], ["necessary|needed|need|against|drop|remov|said no"]],
+      "gold_citations": [
+        {"meeting_id": "IS1004d", "quote": "And for the power source we are having solar cells and rechargeable batteries"},
+        {"meeting_id": "IS1004d", "quote": "I really don't think it's necessary to have the solar cells anymore."},
+        {"meeting_id": "IS1004c", "quote": "on top of that we can have solar cells, when the lighting conditions are good"}
+      ]
+    },
+    {
+      "question_id": "E06", "team": "ES2005",
+      "question": "Did Team ES2005 keep speech recognition in their final design, and what happened to the screen idea and why?",
+      "gold_answer": "Yes: speech recognition was voted in during meeting b and the final design in meeting d is mainly speech-operated, with buttons on the flip side. The LCD screen was dropped: in meeting c Speaker D argued it was too expensive for the 12.50 Euro budget and not right for an easy-to-use product, so the final design has no screen.",
+      "key_facts": [["speech"], ["yes|kept|keep|retain|includ|mainly"], ["expens|budget|cost|twelve|12"], ["no screen|missing|without|drop|not includ|reject|left out|no L|no lcd"]],
+      "gold_citations": [
+        {"meeting_id": "ES2005b", "quote": "so we'll go with speech recognition, yeah? Um, speech recognition, limited buttons, organic design."},
+        {"meeting_id": "ES2005c", "quote": "It's a it's great, it's a good idea, but for our budget and for the thing we're trying to go for"},
+        {"meeting_id": "ES2005d", "quote": "it its' got the latest trends in speech technology, but it's missing the screen, as we said"}
+      ]
+    },
+    {
+      "question_id": "E07", "team": "IS1000",
+      "question": "What production cost limit was Team IS1000 working to, what did their more advanced design with speech recognition cost in the final meeting, and how much of that was the speech recognition?",
+      "gold_answer": "The limit was 12.50 Euros per unit (stated in meeting a and repeated in meeting d as non-negotiable). The advanced design came to 16 Euros, out of budget, of which the speech recognition system was about 3 Euros (about 13 without it); the basic version was about 8 Euros.",
+      "key_facts": [["twelve.{0,15}fifty|12[.,]5|twelve point five|twelve and a half"], ["sixteen|\\b16\\b"], ["three|\\b3\\b"]],
+      "gold_citations": [
+        {"meeting_id": "IS1000a", "quote": "the the product uh production cost must be maximal uh twelve uh twelve Euro and fifty cents."},
+        {"meeting_id": "IS1000d", "quote": "So the the cost is actually a bit more, it's uh it's it's sixteen Francs."},
+        {"meeting_id": "IS1000d", "quote": "the S_R_ system would be uh something like three Francs per item so three Euros sorry."}
+      ]
+    },
+    {
+      "question_id": "E08", "team": "IS1001",
+      "question": "What power source and case did Team IS1001 agree on in their third meeting, and were these kept in the final meeting?",
+      "gold_answer": "In meeting c they agreed on a standard battery and an odd (banana) shape with a spongy cover. Meeting d kept both: a standard battery and a yellow banana-shaped case with a rubber material around it.",
+      "key_facts": [["battery"], ["banana"], ["spongy|rubber"]],
+      "gold_citations": [
+        {"meeting_id": "IS1001c", "quote": "Okay odd shape with spongy cover. And standard battery okay"},
+        {"meeting_id": "IS1001d", "quote": "to have a standard battery, to have a yellow banana shaped uh case with uh a rubber material around"}
+      ]
+    },
+    {
+      "question_id": "E09", "team": "TS3012",
+      "question": "Team TS3012 had agreed to put both an LCD screen and speech recognition in their remote. What happened to these in their final meeting, and what reason was given?",
+      "gold_answer": "Changed finances forced a cut in meeting d: Speaker A (Project Manager) proposed taking out speech recognition and keeping the LCD, because about ninety percent of users favoured an LCD display but only sixty percent favoured speech recognition.",
+      "key_facts": [["speech"], ["lcd|l_c_d_"], ["ninety|90"], ["sixty|60"]],
+      "gold_citations": [
+        {"meeting_id": "TS3012d", "quote": "We agreed that we would implement both the L_C_D_ and speech recognition"},
+        {"meeting_id": "TS3012d", "quote": "the best solution that I came up with is just to s take out the speech recognition."},
+        {"meeting_id": "TS3012d", "quote": "But ninety percent who favour an L_C_D_ display, and only sixty percent that favour speech recognition."}
+      ]
+    },
+    {
+      "question_id": "E10", "team": "TS3008",
+      "question": "When Team TS3008 reviewed energy sources, which option was preferred, and did the push for kinetic power in their final meeting change the design?",
+      "gold_answer": "Speaker C preferred a basic battery when presenting the options in meeting c. In meeting d Speaker A pushed for a kinetic part as a special feature, but it did not make it in: the design stayed with one battery, and A said they would have liked a kinetic part as well.",
+      "key_facts": [["battery"], ["kinetic"], ["\\bno\\b|not|didn't|without|drop|left out|stayed|kept"]],
+      "gold_citations": [
+        {"meeting_id": "TS3008c", "quote": "the energy source, uh I've got a lot of possibilities for that too. Um, uh the basic battery, which I thi prefer"},
+        {"meeting_id": "TS3008d", "quote": "One battery. I think one battery is enough. We don't need kinetic, solar cells, hand dynamo."},
+        {"meeting_id": "TS3008d", "quote": "and I would li I would have liked a kinetic part as well, to give it some just to give it some extra special feature"}
+      ]
+    },
+    {
+      "question_id": "E11", "team": "ES2012",
+      "question": "Did voice recognition make it into Team ES2012's final remote, and what voice features did the final design have?",
+      "gold_answer": "Yes. Voice recognition, pushed by Speaker A from meeting b and confirmed in meeting c, is in the final design in meeting d: a microphone for voice commands, plus a spoken 'where are you' function to find the remote.",
+      "key_facts": [["yes|kept|did|includ|made it"], ["microphone|voice command"], ["where are you|locat|find|lost"]],
+      "gold_citations": [
+        {"meeting_id": "ES2012c", "quote": "Fine. Okay. I it will have voice recognition"},
+        {"meeting_id": "ES2012d", "quote": "we got a microphone there which for all the voice commands"},
+        {"meeting_id": "ES2012d", "quote": "We've b built in the the speech, where are you, function."}
+      ]
+    }
+  ]
+}

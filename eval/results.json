@@ -1,0 +1,531 @@
+[
+  {
+    "id": "E01",
+    "team": "ES2013",
+    "question": "Team ES2013 weighed several energy sources for their remote. Which options were discussed, which one did they settle on in their third meeting, and was it still the choice in the final costing?",
+    "gold": "Batteries (including the idea of a rechargeable internal battery), solar power and kinetic energy were discussed. In meeting c the consensus was kinetic energy, if at all possible, and in meeting d the final costing still used a single kinetic energy source.",
+    "answer": "Team ES2013 discussed standard AA batteries (including a rechargeable internal battery with a docking station), a wind-up mechanism, kinetic energy and solar power; solar was dropped because it needs energy storage (too heavy and costly) and doesn't work in the dark. In the third meeting, led by Speaker A (Project Manager), they reached a consensus to use kinetic energy if at all possible, and kinetic was still the choice in the fourth meeting's recap and final costing, though Speaker C (User Interface Designer) noted the energy side was not fully developed.",
+    "citations": [
+      {
+        "meeting_id": "ES2013c",
+        "quote": "Or we we had talked about solar power, but I thing that we agreed that that's not so good in the dark."
+      },
+      {
+        "meeting_id": "ES2013c",
+        "quote": "So the consensus seems to be use the kinetic if it's at all possible."
+      },
+      {
+        "meeting_id": "ES2013d",
+        "quote": "Um we would use plastic with a rubber casing, I think was the consensus, powered by kinetic energy."
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "3/3",
+    "fact_score": 1.0,
+    "verdict": "correct",
+    "judge_note": "Nothing material. The candidate covers batteries (including the rechargeable internal battery), solar and kinetic energy, and says kinetic was the consensus in meeting 3 and still the choice in the final costing. The extra details (wind-up mechanism, speaker roles, reasons solar was dropped) don't contradict the reference.",
+    "meta": {
+      "team": "ES2013",
+      "parts": [
+        "Which energy sources did Team ES2013 discuss for their remote control?",
+        "Which energy source did Team ES2013 settle on in their third meeting for their remote control?",
+        "Was the energy source that Team ES2013 settled on in their third meeting still their choice in the final costing?"
+      ],
+      "steps": 8,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 623.8,
+      "usage": {
+        "calls": 10,
+        "in": 101241,
+        "out": 4723,
+        "cost": 0.3854208
+      }
+    }
+  },
+  {
+    "id": "E02",
+    "team": "IS1006",
+    "question": "In Team IS1006, who first proposed making the remote out of titanium and why, what was said about rubber as an alternative, and which material did the final design keep?",
+    "gold": "Speaker B proposed titanium in meeting b, for a baby-proof, unbreakable remote with a good style. In meeting c rubber was weighed (Speaker D liked its spongy feel; Speaker C said rubber is expensive and hard to shape), but in meeting d they stuck with titanium.",
+    "answer": "Speaker B (User Interface Designer) first proposed titanium in the second meeting (IS1006b), arguing it would make the remote baby-proof, with a really good style, unbreakable and very universal. In the conceptual meeting (IS1006c), Speaker C (Industrial Designer) said the team would mainly use titanium because rubber is expensive and makes the shapes difficult, while Speaker B suggested a compromise of a titanium body with some rubber parts to feel better. The final design (IS1006d) kept titanium, with Speaker C saying 'we want to stick to titanium'.",
+    "citations": [
+      {
+        "meeting_id": "IS1006b",
+        "quote": "to make a baby-proof remote control it got to be a titanium. It's a really good style, it going to be look like like this. It is unbreakable and it is very universal."
+      },
+      {
+        "meeting_id": "IS1006c",
+        "quote": "We'll use mainly for titanium rubber is expensive and also it's bit difficult to do all the shapes uh."
+      },
+      {
+        "meeting_id": "IS1006d",
+        "quote": "Material, we want to stick to titanium."
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "4/4",
+    "fact_score": 1.0,
+    "verdict": "partial",
+    "judge_note": "Titanium proposer (Speaker B, meeting b, with baby-proof/unbreakable/style reasons) and the final titanium choice are correct. On rubber, the candidate gives Speaker C's point (expensive, hard to shape) but omits Speaker D, who liked rubber's spongy feel. It attributes a rubber-parts compromise to Speaker B instead, which is not in the reference.",
+    "meta": {
+      "team": "IS1006",
+      "parts": [
+        "In Team IS1006, who first proposed making the remote out of titanium, and why?",
+        "In Team IS1006, what was said about rubber as an alternative material for the remote (in the discussion about making it out of titanium)?",
+        "In Team IS1006, which material did the final remote design keep, after the discussion of titanium and rubber?"
+      ],
+      "steps": 7,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 623.8,
+      "usage": {
+        "calls": 9,
+        "in": 67839,
+        "out": 3407,
+        "cost": 0.1966814
+      }
+    }
+  },
+  {
+    "id": "E03",
+    "team": "ES2015",
+    "question": "What energy source did Team ES2015 choose, what happened to the idea of a solar backup, and what did the energy source cost in their final costing?",
+    "gold": "They chose kinetic energy (Speaker B, the Industrial Designer, favoured it in meeting c). A solar backup was suggested in meeting c but dropped in favour of going fully kinetic. In meeting d the kinetic source was costed at three Euros, described as quite a large expense.",
+    "answer": "Team ES2015 chose kinetic (shake-powered) energy, confirmed by Speaker A (Project Manager) in the third meeting as fully kinetic with no battery backup. Speaker B (Industrial Designer) had floated a solar backup instead of a battery, but it was dropped and in the final meeting was said to be unaffordable. In the final costing, the kinetic source was counted at three Euros, which Speaker A (Project Manager) called quite a large expense.",
+    "citations": [
+      {
+        "meeting_id": "ES2015c",
+        "quote": "It could be fully kinetic energy. Yeah."
+      },
+      {
+        "meeting_id": "ES2015c",
+        "quote": "Yeah. Yeah. May maybe that could be the backup. Instead of a battery. Like solar backup."
+      },
+      {
+        "meeting_id": "ES2015d",
+        "quote": "Okay we're using kinetic which is quite a large expense at three Euros."
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "4/4",
+    "fact_score": 1.0,
+    "verdict": "correct",
+    "judge_note": "Nothing material. Candidate matches the key facts: kinetic energy, solar backup dropped, final cost three Euros (quite a large expense). Minor differences in attribution (who favoured kinetic, who called the cost large) and the added 'unaffordable' reason are extra detail, not contradictions of the reference.",
+    "meta": {
+      "team": "ES2015",
+      "parts": [
+        "What energy source did Team ES2015 choose?",
+        "What happened to the idea of a solar backup in Team ES2015's design, given the energy source they chose?",
+        "What did the energy source that Team ES2015 chose cost in their final costing?"
+      ],
+      "steps": 6,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 554.0,
+      "usage": {
+        "calls": 8,
+        "in": 58142,
+        "out": 2573,
+        "cost": 0.21895789999999998
+      }
+    }
+  },
+  {
+    "id": "E04",
+    "team": "IS1004",
+    "question": "Team IS1004 considered both an LCD screen and speech recognition. Which was ruled out first, in which meeting was the other ruled out, and what arguments were made against the LCD?",
+    "gold": "Speech recognition was ruled out first, in meeting b, while the LCD was left open. The LCD was dropped in meeting c, because of cost against the 25 Euro price target and because Speaker D (Marketing Expert) argued it needed an internet connection and more requirements.",
+    "answer": "Speech recognition was ruled out first, in IS1004b, while the LCD was left open. The LCD was ruled out second, in the third meeting (IS1004c), where Speaker A (Project Manager) said the team was forgetting about it. The arguments against the LCD were that the 25 Euro target price could not cover both an LCD and speech recognition, so the TV screen was proposed for feedback instead; Speaker D (Marketing Expert) said an LCD needs an internet connection and extra components; and Speaker A noted a banana-shaped remote leaves little room for one. IS1004d confirms the final design had no LCD.",
+    "citations": [
+      {
+        "meeting_id": "IS1004b",
+        "quote": "we don't go for speech recognition technology. The L_C_D_ is still on disc is still open to discussion."
+      },
+      {
+        "meeting_id": "IS1004c",
+        "quote": "it looks like we're going completely to forget about the L_C_D_ thing."
+      },
+      {
+        "meeting_id": "IS1004c",
+        "quote": "I'm not convinced about this L_C_D_ because you need uh internet connection, you need more things"
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "5/5",
+    "fact_score": 1.0,
+    "verdict": "correct",
+    "judge_note": "Nothing material. Candidate matches the reference: speech recognition ruled out first in meeting b, LCD ruled out in meeting c, with cost against the 25 Euro target and Speaker D's internet connection/extra components argument. The extra details (Speaker A's banana-shape remark, the IS1004d confirmation) don't contradict the reference.",
+    "meta": {
+      "team": "IS1004",
+      "parts": [
+        "Which was ruled out first by team IS1004: the LCD screen or speech recognition?",
+        "In which meeting did team IS1004 rule out the other option, whichever of the LCD screen or speech recognition was ruled out second?",
+        "What arguments were made by team IS1004 against the LCD screen?"
+      ],
+      "steps": 6,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 557.3,
+      "usage": {
+        "calls": 8,
+        "in": 62924,
+        "out": 4022,
+        "cost": 0.291884
+      }
+    }
+  },
+  {
+    "id": "E05",
+    "team": "IS1004",
+    "question": "What power source did Team IS1004's industrial designer propose, and what happened to the solar cells in the final meeting and why?",
+    "gold": "Speaker C (Industrial Designer) proposed rechargeable batteries with a base (docking) station plus solar cells. In meeting d Speaker B (User Interface Designer) argued solar cells were no longer necessary with a recharging base station, and the team decided against them.",
+    "answer": "Speaker C (Industrial Designer) proposed usual batteries that could be rechargeable via a base station, plus solar cells for use when lighting conditions are good (meeting IS1004c). In the final meeting (IS1004d), the team dropped the solar cells and stuck with a single rechargeable battery, because Speaker B (User Interface Designer) argued solar cells were no longer necessary with a recharging base station, and Speaker C agreed rechargeable batteries would cover the power need and keep the cost down.",
+    "citations": [
+      {
+        "meeting_id": "IS1004c",
+        "quote": "one is the usual batteries which are there, they could be chargeable batteries if there's a basis station kind of thing and on top of that we can have solar cells"
+      },
+      {
+        "meeting_id": "IS1004d",
+        "quote": "I don't really know if the solar cells are actually necessary any more if you have a recharging base station."
+      },
+      {
+        "meeting_id": "IS1004d",
+        "quote": "I think rechargeable batteries will take care of the power thing. Yeah. To bring the cost"
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "5/5",
+    "fact_score": 1.0,
+    "verdict": "correct",
+    "judge_note": "Nothing material. The candidate matches the reference: rechargeable batteries with a base station plus solar cells, and the solar cells dropped in the final meeting because Speaker B argued they were unnecessary with a recharging base. The extra detail about Speaker C agreeing and cost is a minor addition and does not contradict the reference.",
+    "meta": {
+      "team": "IS1004",
+      "parts": [
+        "What power source did Team IS1004's industrial designer propose?",
+        "What happened to the solar cells in Team IS1004's final meeting, and why, given that the industrial designer proposed a power source earlier?"
+      ],
+      "steps": 4,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 99.0,
+      "usage": {
+        "calls": 6,
+        "in": 35684,
+        "out": 2304,
+        "cost": 0.165752
+      }
+    }
+  },
+  {
+    "id": "E06",
+    "team": "ES2005",
+    "question": "Did Team ES2005 keep speech recognition in their final design, and what happened to the screen idea and why?",
+    "gold": "Yes: speech recognition was voted in during meeting b and the final design in meeting d is mainly speech-operated, with buttons on the flip side. The LCD screen was dropped: in meeting c Speaker D argued it was too expensive for the 12.50 Euro budget and not right for an easy-to-use product, so the final design has no screen.",
+    "answer": "Yes, Team ES2005 kept speech recognition: Speaker C (Project Manager) settled on it after the second meeting, and in the final meeting Speaker D (User Interface Designer) presented a prototype that works mainly by speech recognition, with buttons on the back. The screen idea was dropped: the TFT screen was rejected in the second meeting because, as Speaker A (Industrial Designer) warned, remotes get thrown around and a screen would likely break, and the LCD was rejected in the third meeting as too expensive for the budget and at odds with an easy-to-use remote, so the final design was noted as missing the screen.",
+    "citations": [
+      {
+        "meeting_id": "ES2005b",
+        "quote": "Excellent, so we'll go with speech recognition, yeah? Um, speech recognition, limited buttons, organic design."
+      },
+      {
+        "meeting_id": "ES2005b",
+        "quote": "these uh remotes get abused a lot, you know they get thrown around, there's a good chance the the T_F_T_ screen would break"
+      },
+      {
+        "meeting_id": "ES2005c",
+        "quote": "I'm not sure about the L_C_D_. It's a it's great, it's a good idea, but for our budget and for the thing we're trying to go for eas easy to use"
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "4/4",
+    "fact_score": 1.0,
+    "verdict": "correct",
+    "judge_note": "Nothing key is missing or wrong. Speech recognition was kept (decided in meeting b, with a mainly speech-operated final design and buttons on the back). The LCD was dropped in meeting c as too expensive and not easy to use. The candidate does not name Speaker D as the one who argued against the LCD or give the 12.50 Euro figure, and its extra detail about the TFT screen in meeting b is unverified, but neither affects the key facts.",
+    "meta": {
+      "team": "ES2005",
+      "parts": [
+        "Did Team ES2005 keep speech recognition in their final design?",
+        "What happened to the screen idea (e.g., LCD) in Team ES2005's design, and why was that decision made?"
+      ],
+      "steps": 5,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 90.4,
+      "usage": {
+        "calls": 7,
+        "in": 53178,
+        "out": 2569,
+        "cost": 0.238374
+      }
+    }
+  },
+  {
+    "id": "E07",
+    "team": "IS1000",
+    "question": "What production cost limit was Team IS1000 working to, what did their more advanced design with speech recognition cost in the final meeting, and how much of that was the speech recognition?",
+    "gold": "The limit was 12.50 Euros per unit (stated in meeting a and repeated in meeting d as non-negotiable). The advanced design came to 16 Euros, out of budget, of which the speech recognition system was about 3 Euros (about 13 without it); the basic version was about 8 Euros.",
+    "answer": "Team IS1000 worked to a maximum production cost of twelve euros fifty cents per unit, set by Speaker B (Project Manager) in the first meeting. In the final meeting their more advanced design with speech recognition was costed at about sixteen euros, of which speech recognition was about three euros (roughly a fifth), so without it the design came to thirteen euros; they ultimately dropped it and the LCD and went with the basic design at about twelve euros.",
+    "citations": [
+      {
+        "meeting_id": "IS1000a",
+        "quote": "the product uh production cost must be maximal uh twelve uh twelve Euro and fifty cents."
+      },
+      {
+        "meeting_id": "IS1000d",
+        "quote": "than the cost you gave, the sixteen Euros."
+      },
+      {
+        "meeting_id": "IS1000d",
+        "quote": "they say basically that the S_R_ system would be uh something like three Francs per item so three Euros sorry."
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "3/3",
+    "fact_score": 1.0,
+    "verdict": "partial",
+    "judge_note": "Limit (12.50), advanced design (~16 Euros) and speech recognition (~3 Euros, ~13 without) all match. But the candidate says the basic design ended at about twelve euros, whereas the reference says the basic version was about 8 Euros. It also attributes the limit to meeting a only and omits that it was repeated in meeting d as non-negotiable, which is minor. The basic-design cost is a wrong claim about a key fact.",
+    "meta": {
+      "team": "IS1000",
+      "parts": [
+        "What production cost limit was Team IS1000 working to?",
+        "What was the cost of Team IS1000's more advanced design with speech recognition in the final meeting?",
+        "How much of the cost of Team IS1000's more advanced design with speech recognition in the final meeting was the speech recognition component?"
+      ],
+      "steps": 6,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 47.0,
+      "usage": {
+        "calls": 9,
+        "in": 71182,
+        "out": 3129,
+        "cost": 0.315982
+      }
+    }
+  },
+  {
+    "id": "E08",
+    "team": "IS1001",
+    "question": "What power source and case did Team IS1001 agree on in their third meeting, and were these kept in the final meeting?",
+    "gold": "In meeting c they agreed on a standard battery and an odd (banana) shape with a spongy cover. Meeting d kept both: a standard battery and a yellow banana-shaped case with a rubber material around it.",
+    "answer": "In their third meeting (IS1001c), Team IS1001 agreed on a standard battery and an odd-shaped, banana-shaped case with a spongy cover, as set out by Speaker A (Project Manager). Yes, both were kept in the final meeting (IS1001d), where Speaker A (Project Manager) reviewed a standard battery and a yellow banana-shaped case with a rubber covering that feels spongy.",
+    "citations": [
+      {
+        "meeting_id": "IS1001c",
+        "quote": "Okay odd shape with spongy cover. And standard battery okay, a chip imprint, there's no specific problem."
+      },
+      {
+        "meeting_id": "IS1001d",
+        "quote": "to have a standard battery, to have a yellow banana shaped uh case with uh a rubber material around it to be uh to feel spongy,"
+      }
+    ],
+    "citations_valid": "2/2",
+    "facts": "3/3",
+    "fact_score": 1.0,
+    "verdict": "correct",
+    "judge_note": "Nothing missing or wrong. The candidate matches the reference: a standard battery and a banana-shaped case with a spongy cover in meeting c, both kept in meeting d (yellow, rubber covering). The attribution to Speaker A is extra detail and does not contradict the reference.",
+    "meta": {
+      "team": "IS1001",
+      "parts": [
+        "What power source did Team IS1001 agree on in their third meeting?",
+        "What case did Team IS1001 agree on in their third meeting?",
+        "Did Team IS1001 keep the power source and case they agreed on in their third meeting in their final meeting?"
+      ],
+      "steps": 6,
+      "grounding": [
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 35.1,
+      "usage": {
+        "calls": 8,
+        "in": 57461,
+        "out": 2569,
+        "cost": 0.255502
+      }
+    }
+  },
+  {
+    "id": "E09",
+    "team": "TS3012",
+    "question": "Team TS3012 had agreed to put both an LCD screen and speech recognition in their remote. What happened to these in their final meeting, and what reason was given?",
+    "gold": "Changed finances forced a cut in meeting d: Speaker A (Project Manager) proposed taking out speech recognition and keeping the LCD, because about ninety percent of users favoured an LCD display but only sixty percent favoured speech recognition.",
+    "answer": "In the final meeting (TS3012d), Speaker A (Project Manager) said the design came to seventeen Euros in production cost, above the permitted twelve and a half, so speech recognition was dropped from the base product while the LCD screen was kept because it has more customer support. Speaker C (Industrial Designer) added that speech recognition cannot be done at this price, so customers who want it must pay more.",
+    "citations": [
+      {
+        "meeting_id": "TS3012d",
+        "quote": "You have the total of seventeen Euros in production cost, which is higher than the twelve and a half that we are permitted to use."
+      },
+      {
+        "meeting_id": "TS3012d",
+        "quote": "Because the L_C_D_ has more support on customer side."
+      },
+      {
+        "meeting_id": "TS3012d",
+        "quote": "then they must be prepared to pu to pay more, because it's cannot be done for this."
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "2/4",
+    "fact_score": 0.5,
+    "verdict": "partial",
+    "judge_note": "The outcome is right: speech recognition was dropped and the LCD kept. The reason differs from the reference. The reference says finances changed and the choice rested on user preference, with about 90% favouring an LCD and only 60% favouring speech recognition. The candidate instead gives a production cost of 17 Euros against a 12.5 limit and says only that the LCD has 'more customer support'. It leaves out the 90% vs 60% figures. The cost and budget numbers are not in the reference, so they are unsupported.",
+    "meta": {
+      "team": "TS3012",
+      "parts": [
+        "What happened to the LCD screen and the speech recognition in Team TS3012's remote control design during their final meeting?",
+        "What reason was given by Team TS3012 in their final meeting for what happened to the LCD screen and the speech recognition in their remote?"
+      ],
+      "steps": 4,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 31.8,
+      "usage": {
+        "calls": 6,
+        "in": 43425,
+        "out": 2794,
+        "cost": 0.20161600000000002
+      }
+    }
+  },
+  {
+    "id": "E10",
+    "team": "TS3008",
+    "question": "When Team TS3008 reviewed energy sources, which option was preferred, and did the push for kinetic power in their final meeting change the design?",
+    "gold": "Speaker C preferred a basic battery when presenting the options in meeting c. In meeting d Speaker A pushed for a kinetic part as a special feature, but it did not make it in: the design stayed with one battery, and A said they would have liked a kinetic part as well.",
+    "answer": "When reviewing energy sources, Speaker C (Industrial Designer) preferred the basic battery over kinetic or solar power (meeting TS3008c). Yes, the push for kinetic power changed the design: in the final meeting (TS3008d), Speaker A (Project Manager) rejected the combined battery-and-kinetic compromise and insisted on kinetic only with no batteries, so kinetic-only became the final choice despite doubts from Speaker C and Speaker D (Marketing Expert) that it would be impractical.",
+    "citations": [
+      {
+        "meeting_id": "TS3008c",
+        "quote": "the basic battery, which I thi prefer because of its uh its non uh non-depending of of of uh um"
+      },
+      {
+        "meeting_id": "TS3008d",
+        "quote": "Maybe we can uh can do it both. Maybe we can do it both uh in the in the in the remote. Battery and kinetic."
+      },
+      {
+        "meeting_id": "TS3008d",
+        "quote": "you have to really do it only kinetic, you don't want it to think about batteries anymore."
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "3/3",
+    "fact_score": 1.0,
+    "verdict": "wrong",
+    "judge_note": "The first part is right (Speaker C preferred the basic battery in meeting c). But the candidate says the kinetic push changed the design and that kinetic-only became the final choice. The reference says the push by Speaker A did not change the design: it stayed with one battery, and A said they would have liked a kinetic part as well.",
+    "meta": {
+      "team": "TS3008",
+      "parts": [
+        "When Team TS3008 reviewed energy sources for their design, which energy source option was preferred?",
+        "In Team TS3008's final meeting, did the push for kinetic power as an energy source change their design, given whichever energy source they had preferred when reviewing energy sources?"
+      ],
+      "steps": 4,
+      "grounding": [
+        "exact",
+        "snapped(0.96)",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 33.1,
+      "usage": {
+        "calls": 6,
+        "in": 43073,
+        "out": 2981,
+        "cost": 0.202078
+      }
+    }
+  },
+  {
+    "id": "E11",
+    "team": "ES2012",
+    "question": "Did voice recognition make it into Team ES2012's final remote, and what voice features did the final design have?",
+    "gold": "Yes. Voice recognition, pushed by Speaker A from meeting b and confirmed in meeting c, is in the final design in meeting d: a microphone for voice commands, plus a spoken 'where are you' function to find the remote.",
+    "answer": "Yes, voice recognition made it into Team ES2012's final remote: in the third meeting Speaker A (Project Manager) agreed it will have voice recognition, and in the final meeting Speaker A said the voice sensor is expensive but a fundamental design decision, so it stays. The final design had a microphone for voice commands, alongside physical controls: a volume scroll, channel up/down buttons and a large power key.",
+    "citations": [
+      {
+        "meeting_id": "ES2012c",
+        "quote": "Fine. Okay. I it will have voice recognition um uh if if that means uh if that means we can't afford buttons"
+      },
+      {
+        "meeting_id": "ES2012d",
+        "quote": "The uh the the voice sensor is is expensive but we we made a a basic decision that that was absolutely fundamental to the to the design so that that has to stay."
+      },
+      {
+        "meeting_id": "ES2012d",
+        "quote": "we got a microphone there which for all the voice commands so you can you know talk to it like that and it'll still understand"
+      }
+    ],
+    "citations_valid": "3/3",
+    "facts": "2/3",
+    "fact_score": 0.6666666666666666,
+    "verdict": "partial",
+    "judge_note": "The candidate gets the main point right: voice recognition is in the final design and includes a microphone for voice commands. It omits the spoken 'where are you' function for finding the remote, which is a key voice feature in the reference. It also attributes the push to Speaker A in the third meeting only, and does not mention that Speaker A first pushed it in meeting b.",
+    "meta": {
+      "team": "ES2012",
+      "parts": [
+        "Did voice recognition (speech recognition) make it into Team ES2012's final remote control design?",
+        "What voice-related features did Team ES2012's final remote control design have?"
+      ],
+      "steps": 4,
+      "grounding": [
+        "exact",
+        "exact",
+        "exact"
+      ],
+      "citation_errors": [],
+      "protocol": "json",
+      "seconds": 27.7,
+      "usage": {
+        "calls": 6,
+        "in": 47021,
+        "out": 1874,
+        "cost": 0.2068
+      }
+    }
+  }
+]
